@@ -1,3 +1,5 @@
+// ********** Data Types **********
+
 // 7 type of data types
 
 // String ->  "I am string", "34", 'Zohaib'
@@ -113,3 +115,103 @@
 // for pop
 // console.log(dishes.pop())
 
+
+
+
+// ********** Control Flow **********
+// for loop
+// let dishes = ["Biryani", "Korma", "Samosa", "PavBhaji", "Jalfrezi", "Rasgulla"];
+// for (let i = 0; i < dishes.length; i++) {
+//     console.log(dishes[i]);
+// }
+
+// while loop
+// let j = 0;
+// while (j <= 5) {
+//     console.log("while loop", j)
+//     j++;
+// }
+
+// let dishes = ["Biryani", "Korma", "Samosa", "PavBhaji", "Jalfrezi", "Rasgulla"];
+// let k = 0;
+// while (k < dishes.length) {
+//     console.log("My favirorite dish is", dishes[k])
+//     k++;
+// }
+
+// if statement
+// let budget = 4000;
+// if (budget > 3000) {
+//     console.log("Will do dinner in one star hotel")
+// }
+
+// if-else statement
+// let budget = 4000;
+// if (budget > 6000) {
+//     console.log("Will do dinner in hotel")
+// } else {
+//     console.log("Will do dinner in three star hotel")
+// }
+
+// if else-if else statement
+// let budget = 5000;
+// if (budget > 6000) {
+//     console.log("Will do dinner in one start hotel")
+// } else if (budget => 4500) {
+//     console.log("Will do dinner in three star hotel")
+// } else {
+//     console.log("Will do dinner in five star hotel")
+// }
+
+// continue
+// for (let i = 1; i <= 10; i++) {
+//     if (i == 2) {
+//         continue;
+//     }
+//     console.log("Value of i =", i)
+// }
+
+// break
+// for (let i = 1; i <= 20; i++) {
+//     if (i == 5) {
+//         console.log("Our desired value is", i)
+//         break;
+//     }
+//     console.log("Value of i =", i)
+// }
+
+// logical operator &&
+// let password = "900698@";
+// if (password.length >= 8 && password.includes('@')) {
+//     console.log("Passowrd is strong");
+// } else {
+//     console.log("Passowrd is weak");
+// }
+
+// logical operator ||
+// let password = "900698@";
+// if (password.length >= 8 || password.includes('@')) {
+//     console.log("Passowrd is strong");
+// } else {
+//     console.log("Passowrd is weak");
+// }
+// logical operator !=
+// let status = false;
+// if (!status) {
+//     console.log("Your status is", status)
+// }
+
+// ternary operator
+// if-else method
+// let age = 20;
+// if (age > 18) {
+//     console.log("Qualified age")
+// }
+// else {
+//     console.log("Failed age")
+// }
+
+// single line solutuation in ternary operator
+// let age = 20;
+// let result = age >= 18 ? "Qualified" : "Failed";
+// console.log(result)
