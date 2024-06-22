@@ -215,3 +215,68 @@
 // let age = 20;
 // let result = age >= 18 ? "Qualified" : "Failed";
 // console.log(result)
+
+
+
+// ********** Functions **********
+// function nameOfFunction() {
+// console.log("You are running the code in the function")
+// }
+// function call
+// nameOfFunction()
+// nameOfFunction()
+
+// function expression
+// let fun = function () {
+// console.log("This is the function expression")
+// }
+// fun()
+
+// real life example
+// let invitation = function (name, from) {
+//     console.log(`Welcome ${name}! from ${from} your are invited`)
+// }
+// invitation("Zohaib", "Bihar")
+// invitation("Akhtar")
+
+// return value
+// let ageCalculation = function (birthYear, crntYear) {
+//     let age = crntYear - birthYear;
+//     console.log(`Your current age is ${age}`)
+// }
+// ageCalculation(2007, 2009)
+
+// Arrow function
+// let invitation = name => {
+//     return `Welcome ${name} to this event`
+// }
+// console.log(invitation("coders"))
+
+// Passing function as a argument
+// let upperCase = function (str) {
+//     return str.toUpperCase();
+// }
+// let lowerCase = function (str) {
+//     return str.toLowerCase();
+// }
+// let transformer = function (str, fun) {
+//     return fun(str)
+// }
+// console.log(transformer("HeLLo ProgRammer", lowerCase))
+
+// setTimeOut -> run function "once" after "interval" of the time
+// function greeting() {
+//     console.log("Welcome")
+// }
+// setTimeout(greeting, 2000);
+
+// function greeting(name) {
+//     console.log(`Welcome ${name}`)
+// }
+// setTimeout(greeting, 2000, "Zohaib");
+
+// setInterval -> run function repeatedly, starting after the inter of the time, then repeating
+// function greeting(name) {
+//     console.log(`Welcome ${name}`)
+// }
+// setInterval(greeting, 2000, "Zohaib")
