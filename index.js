@@ -280,3 +280,49 @@
 //     console.log(`Welcome ${name}`)
 // }
 // setInterval(greeting, 2000, "Zohaib")
+
+
+
+// ********** Objects **********
+// let car = {
+//     model: "2022",
+//     color: "blue",
+//     company: "Honda",
+// }
+// console.log(car);
+// console.log(car["company"])
+
+// let prototypeName = "color"
+// console.log(car[prototypeName])
+// console.log(car.color)
+// car["color"] = "brown";
+// car.model = "2024"
+// console.log(car.model)
+
+// let obj = {
+//     prop1: "value1",
+//     prop2: "value2"
+// }
+// delete obj.prop1
+// console.log(obj.prop2)
+
+// this keyword
+// let person = {
+//     fNmae: "Zohaib",
+//     lNmae: "Akhtar",
+//     city: "Patna",
+//     education: "Engineer",
+//     getSummary: function () {
+//         return `${this.fNmae} ${this.lNmae} is a ${this.education}`
+//     }
+// }
+// console.log(person.getSummary());
+
+// let dishes = ["Biryani", "Korma", "Samosa", "PavBhaji", "Jalfrezi", "Rasgulla"];
+// for (let i = 0; i < dishes.length; i++) {
+//     console.log(dishes[i]);
+// }
+// dishes.forEach(function (element) {
+//     console.log(element)
+// })
+
